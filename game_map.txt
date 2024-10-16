@@ -1,0 +1,18 @@
+startRoom|A dimly lit room.
+Room2|A spacious hall.
+Room3|A small library.
+Room4|A server farm.
+Room5|BOSS LEVEL: Zombie room.
+Room6|BOSS LEVEL: A dragons lair.
+Room7|A military base.
+Room8|An EMP manufacturing room.
+exitRoom|A room full of bushes.
+startRoom|Connect Room2 east Connect Room3 west Connect Room8 north
+Room2|Connect Room6 south Connect startRoom west
+Room3|Connect Room7 north Connect Room4 south Connect startRoom east
+Room4|Connect Room5 southeast Connect Room6 east Connect Room3 north
+Room5|Connect exitRoom east Connect Room4 northwest
+Room6|Connect Room4 west Connect Room2 north
+Room7|Connect Room8 east Connect Room3 south
+Room8|Connect startRoom south Connect Room7 west
+exitRoom|Connect Room5 west
